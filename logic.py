@@ -1,5 +1,6 @@
 # Задание №3
 import requests
+import telebot
 from collections import defaultdict
 from translate import Translator
 
@@ -23,7 +24,7 @@ class TextAnalysis():
 
         # Задание №6
         if self.text.lower() in qwestions.keys():
-            pass
+            self.response = qwestions[]
         else:
             self.response = self.get_answer() 
     
